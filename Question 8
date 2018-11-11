@@ -1,0 +1,24 @@
+int y;
+
+void t1()
+
+{
+
+      int x = 1;
+
+      x++;         // is x local 
+
+      y++;        // is y global
+
+}
+
+int main()
+
+{
+
+      t1();
+
+      return 0;
+
+}
+
