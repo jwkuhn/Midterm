@@ -1,0 +1,29 @@
+#include "pch.h"
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+void swapCharacters(char& a, char& b)
+{
+char temp = a;
+a = b;
+b = temp;
+}
+int main()
+{
+char a;
+char b;
+cout << "Before swapping" << endl;
+cout << "Enter a = ";
+cin >> a;
+
+cout << "Enter b =";
+cin >> b;
+
+swapCharacters(a, b);
+
+cout << "After swapping" << endl;
+cout << "a = " << a << " b = " << b << "\n";
+
+return 0;
+}
